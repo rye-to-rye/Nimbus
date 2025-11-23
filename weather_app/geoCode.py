@@ -7,7 +7,7 @@ from geopy.exc import GeocoderServiceError
 class GeoInfo:
 
   def __init__(self, city):
-    self._api_key = "ca7eb1166c88ced286af761aa1d685bf"
+    self._api_key = "YOUR_API_KEY_HERE"
     self.city = city
     self.geo_json = self.get_geo_json()
     
@@ -71,4 +71,5 @@ class GeoInfo:
 
     
     
+
   
