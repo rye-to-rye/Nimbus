@@ -3,7 +3,7 @@ import requests
 
 class WeatherInfo:
     def __init__(self, city):
-        self._api_key = "d1567f53e1833fe1fd68683da7d1e00d"
+        self._api_key = "YOUR_API_KEY_HERE"
         self.units = "imperial"
         self.error_message = None
 
@@ -84,3 +84,4 @@ class WeatherInfo:
             return "N/A"
         except Exception:
             return "N/A"
+
